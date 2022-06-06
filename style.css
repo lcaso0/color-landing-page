@@ -2,8 +2,12 @@ body {
  background: #131313 !important;
 }
 
-html {
+body, html {
  overflow-x: hidden;
+}
+
+p,h1,h2,h3,span,h4 {
+  word-wrap: break-word;
 }
 
 /* scroll */
@@ -32,6 +36,7 @@ html {
 .navbar {
 	position: fixed !important;
 	width: 100%;
+	z-index: 1;
 }
 
 .navbar-brand {
